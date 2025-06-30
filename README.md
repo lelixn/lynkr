@@ -21,7 +21,7 @@ YouTube, Instagram, TikTok, Facebook, Reddit, Twitter/X, and more.
 
 ## 🚀 Demo
 
-> 🔗 Deployed on [Railway](https://your-railway-domain.up.railway.app)
+> 🔗 Deployed on [https://lynkr-production.up.railway.app/]
 
 ---
 
