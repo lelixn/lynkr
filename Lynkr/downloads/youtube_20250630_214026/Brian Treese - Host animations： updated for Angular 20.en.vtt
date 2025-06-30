@@ -1,0 +1,1280 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:03.110 align:start position:0%
+ 
+Hey<00:00:00.960><c> all,</c><00:00:01.360><c> it's</c><00:00:01.600><c> Brian.</c><00:00:02.480><c> If</c><00:00:02.720><c> you've</c><00:00:02.960><c> been</c>
+
+00:00:03.110 --> 00:00:03.120 align:start position:0%
+Hey all, it's Brian. If you've been
+ 
+
+00:00:03.120 --> 00:00:05.269 align:start position:0%
+Hey all, it's Brian. If you've been
+building<00:00:03.520><c> Angular</c><00:00:04.000><c> apps</c><00:00:04.240><c> for</c><00:00:04.400><c> a</c><00:00:04.640><c> while,</c><00:00:05.040><c> like</c>
+
+00:00:05.269 --> 00:00:05.279 align:start position:0%
+building Angular apps for a while, like
+ 
+
+00:00:05.279 --> 00:00:07.829 align:start position:0%
+building Angular apps for a while, like
+I<00:00:05.520><c> have,</c><00:00:06.080><c> you</c><00:00:06.319><c> know,</c><00:00:06.720><c> the</c><00:00:06.960><c> framework</c><00:00:07.520><c> keeps</c>
+
+00:00:07.829 --> 00:00:07.839 align:start position:0%
+I have, you know, the framework keeps
+ 
+
+00:00:07.839 --> 00:00:09.910 align:start position:0%
+I have, you know, the framework keeps
+evolving<00:00:08.320><c> fast.</c>
+
+00:00:09.910 --> 00:00:09.920 align:start position:0%
+evolving fast.
+ 
+
+00:00:09.920 --> 00:00:12.150 align:start position:0%
+evolving fast.
+Today,<00:00:10.480><c> I'm</c><00:00:10.800><c> going</c><00:00:10.960><c> to</c><00:00:11.200><c> show</c><00:00:11.440><c> you</c><00:00:11.759><c> how</c><00:00:12.000><c> to</c>
+
+00:00:12.150 --> 00:00:12.160 align:start position:0%
+Today, I'm going to show you how to
+ 
+
+00:00:12.160 --> 00:00:14.310 align:start position:0%
+Today, I'm going to show you how to
+modernize<00:00:12.639><c> an</c><00:00:12.880><c> older</c><00:00:13.120><c> app</c><00:00:13.440><c> step</c><00:00:13.679><c> by</c><00:00:13.920><c> step</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+modernize an older app step by step
+ 
+
+00:00:14.320 --> 00:00:16.310 align:start position:0%
+modernize an older app step by step
+using<00:00:14.559><c> the</c><00:00:14.799><c> latest</c><00:00:15.120><c> Angular</c><00:00:15.599><c> features,</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+using the latest Angular features,
+ 
+
+00:00:16.320 --> 00:00:19.109 align:start position:0%
+using the latest Angular features,
+modern<00:00:16.720><c> host</c><00:00:16.960><c> bindings</c><00:00:17.440><c> and</c><00:00:17.680><c> events,</c><00:00:18.720><c> control</c>
+
+00:00:19.109 --> 00:00:19.119 align:start position:0%
+modern host bindings and events, control
+ 
+
+00:00:19.119 --> 00:00:22.390 align:start position:0%
+modern host bindings and events, control
+flow,<00:00:19.760><c> and</c><00:00:20.080><c> signal</c><00:00:20.400><c> inputs,</c><00:00:21.600><c> so</c><00:00:21.840><c> your</c><00:00:22.080><c> code</c>
+
+00:00:22.390 --> 00:00:22.400 align:start position:0%
+flow, and signal inputs, so your code
+ 
+
+00:00:22.400 --> 00:00:25.509 align:start position:0%
+flow, and signal inputs, so your code
+stays<00:00:22.720><c> lean,</c><00:00:23.359><c> futureproof,</c><00:00:24.560><c> and</c><00:00:25.039><c> ready</c><00:00:25.279><c> for</c>
+
+00:00:25.509 --> 00:00:25.519 align:start position:0%
+stays lean, futureproof, and ready for
+ 
+
+00:00:25.519 --> 00:00:28.230 align:start position:0%
+stays lean, futureproof, and ready for
+production.<00:00:26.880><c> By</c><00:00:27.199><c> the</c><00:00:27.359><c> end</c><00:00:27.439><c> of</c><00:00:27.599><c> this</c><00:00:27.760><c> video,</c>
+
+00:00:28.230 --> 00:00:28.240 align:start position:0%
+production. By the end of this video,
+ 
+
+00:00:28.240 --> 00:00:30.470 align:start position:0%
+production. By the end of this video,
+your<00:00:28.480><c> code</c><00:00:28.720><c> will</c><00:00:28.960><c> be</c><00:00:29.119><c> smaller,</c><00:00:30.000><c> a</c><00:00:30.240><c> little</c>
+
+00:00:30.470 --> 00:00:30.480 align:start position:0%
+your code will be smaller, a little
+ 
+
+00:00:30.480 --> 00:00:33.590 align:start position:0%
+your code will be smaller, a little
+faster,<00:00:31.359><c> and</c><00:00:31.760><c> overall</c><00:00:32.160><c> more</c><00:00:32.399><c> modern,</c><00:00:33.280><c> and</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+faster, and overall more modern, and
+ 
+
+00:00:33.600 --> 00:00:35.750 align:start position:0%
+faster, and overall more modern, and
+you'll<00:00:34.000><c> see</c><00:00:34.160><c> exactly</c><00:00:34.640><c> how</c><00:00:34.960><c> to</c><00:00:35.280><c> quickly</c>
+
+00:00:35.750 --> 00:00:35.760 align:start position:0%
+you'll see exactly how to quickly
+ 
+
+00:00:35.760 --> 00:00:38.310 align:start position:0%
+you'll see exactly how to quickly
+modernize<00:00:36.399><c> several</c><00:00:36.800><c> aspects</c><00:00:37.360><c> of</c><00:00:37.600><c> an</c><00:00:37.920><c> existing</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+modernize several aspects of an existing
+ 
+
+00:00:38.320 --> 00:00:39.990 align:start position:0%
+modernize several aspects of an existing
+application.
+
+00:00:39.990 --> 00:00:40.000 align:start position:0%
+application.
+ 
+
+00:00:40.000 --> 00:00:42.229 align:start position:0%
+application.
+A<00:00:40.320><c> couple</c><00:00:40.559><c> years</c><00:00:40.800><c> back,</c><00:00:41.200><c> I</c><00:00:41.520><c> built</c><00:00:41.760><c> this</c><00:00:42.000><c> little</c>
+
+00:00:42.229 --> 00:00:42.239 align:start position:0%
+A couple years back, I built this little
+ 
+
+00:00:42.239 --> 00:00:44.549 align:start position:0%
+A couple years back, I built this little
+Angular<00:00:42.719><c> demo</c><00:00:43.120><c> showing</c><00:00:43.520><c> how</c><00:00:43.680><c> to</c><00:00:43.840><c> use</c><00:00:44.000><c> the</c><00:00:44.239><c> host</c>
+
+00:00:44.549 --> 00:00:44.559 align:start position:0%
+Angular demo showing how to use the host
+ 
+
+00:00:44.559 --> 00:00:47.190 align:start position:0%
+Angular demo showing how to use the host
+binding<00:00:45.200><c> decorator</c><00:00:45.760><c> to</c><00:00:46.000><c> bind</c><00:00:46.320><c> an</c><00:00:46.559><c> animation</c>
+
+00:00:47.190 --> 00:00:47.200 align:start position:0%
+binding decorator to bind an animation
+ 
+
+00:00:47.200 --> 00:00:50.709 align:start position:0%
+binding decorator to bind an animation
+to<00:00:47.440><c> a</c><00:00:47.600><c> component</c><00:00:48.000><c> host.</c><00:00:49.200><c> Back</c><00:00:49.520><c> then</c><00:00:50.239><c> it</c><00:00:50.480><c> worked</c>
+
+00:00:50.709 --> 00:00:50.719 align:start position:0%
+to a component host. Back then it worked
+ 
+
+00:00:50.719 --> 00:00:53.590 align:start position:0%
+to a component host. Back then it worked
+great,<00:00:51.440><c> but</c><00:00:51.840><c> Angular</c><00:00:52.320><c> has</c><00:00:52.480><c> come</c><00:00:52.640><c> a</c><00:00:52.800><c> long</c><00:00:52.960><c> way</c>
+
+00:00:53.590 --> 00:00:53.600 align:start position:0%
+great, but Angular has come a long way
+ 
+
+00:00:53.600 --> 00:00:55.830 align:start position:0%
+great, but Angular has come a long way
+and<00:00:53.840><c> now</c><00:00:54.160><c> we</c><00:00:54.480><c> have</c><00:00:54.559><c> some</c><00:00:54.800><c> much</c><00:00:55.120><c> cleaner,</c><00:00:55.600><c> more</c>
+
+00:00:55.830 --> 00:00:55.840 align:start position:0%
+and now we have some much cleaner, more
+ 
+
+00:00:55.840 --> 00:00:58.630 align:start position:0%
+and now we have some much cleaner, more
+powerful<00:00:56.239><c> ways</c><00:00:56.480><c> to</c><00:00:56.640><c> write</c><00:00:56.800><c> this</c><00:00:57.039><c> code.</c>
+
+00:00:58.630 --> 00:00:58.640 align:start position:0%
+powerful ways to write this code.
+ 
+
+00:00:58.640 --> 00:01:00.389 align:start position:0%
+powerful ways to write this code.
+Let's<00:00:58.960><c> look</c><00:00:59.039><c> at</c><00:00:59.199><c> the</c><00:00:59.440><c> code</c><00:00:59.760><c> that's</c><00:01:00.079><c> making</c>
+
+00:01:00.389 --> 00:01:00.399 align:start position:0%
+Let's look at the code that's making
+ 
+
+00:01:00.399 --> 00:01:03.910 align:start position:0%
+Let's look at the code that's making
+this<00:01:00.640><c> happen.</c><00:01:01.680><c> The</c><00:01:02.079><c> app</c><00:01:02.399><c> component</c><00:01:03.120><c> is</c><00:01:03.520><c> where</c>
+
+00:01:03.910 --> 00:01:03.920 align:start position:0%
+this happen. The app component is where
+ 
+
+00:01:03.920 --> 00:01:06.630 align:start position:0%
+this happen. The app component is where
+this<00:01:04.159><c> list</c><00:01:04.400><c> of</c><00:01:04.559><c> players</c><00:01:04.960><c> lives</c><00:01:05.360><c> currently.</c>
+
+00:01:06.630 --> 00:01:06.640 align:start position:0%
+this list of players lives currently.
+ 
+
+00:01:06.640 --> 00:01:09.109 align:start position:0%
+this list of players lives currently.
+First<00:01:06.960><c> off,</c><00:01:07.520><c> this</c><00:01:07.760><c> list</c><00:01:08.080><c> is</c><00:01:08.320><c> using</c><00:01:08.560><c> the</c><00:01:08.799><c> old</c>
+
+00:01:09.109 --> 00:01:09.119 align:start position:0%
+First off, this list is using the old
+ 
+
+00:01:09.119 --> 00:01:12.390 align:start position:0%
+First off, this list is using the old
+ng4<00:01:09.920><c> structural</c><00:01:10.400><c> directive.</c>
+
+00:01:12.390 --> 00:01:12.400 align:start position:0%
+ng4 structural directive.
+ 
+
+00:01:12.400 --> 00:01:14.070 align:start position:0%
+ng4 structural directive.
+This<00:01:12.640><c> isn't</c><00:01:12.880><c> the</c><00:01:13.119><c> way</c><00:01:13.280><c> we</c><00:01:13.520><c> want</c><00:01:13.600><c> to</c><00:01:13.760><c> do</c><00:01:13.840><c> this</c>
+
+00:01:14.070 --> 00:01:14.080 align:start position:0%
+This isn't the way we want to do this
+ 
+
+00:01:14.080 --> 00:01:16.870 align:start position:0%
+This isn't the way we want to do this
+anymore.<00:01:14.799><c> Instead,</c><00:01:15.439><c> we</c><00:01:15.680><c> want</c><00:01:15.760><c> to</c><00:01:15.920><c> use</c><00:01:16.240><c> a</c><00:01:16.640><c> four</c>
+
+00:01:16.870 --> 00:01:16.880 align:start position:0%
+anymore. Instead, we want to use a four
+ 
+
+00:01:16.880 --> 00:01:18.789 align:start position:0%
+anymore. Instead, we want to use a four
+block.
+
+00:01:18.789 --> 00:01:18.799 align:start position:0%
+block.
+ 
+
+00:01:18.799 --> 00:01:20.469 align:start position:0%
+block.
+This<00:01:19.040><c> is</c><00:01:19.280><c> part</c><00:01:19.439><c> of</c><00:01:19.600><c> Angular's</c><00:01:20.159><c> modern</c>
+
+00:01:20.469 --> 00:01:20.479 align:start position:0%
+This is part of Angular's modern
+ 
+
+00:01:20.479 --> 00:01:23.350 align:start position:0%
+This is part of Angular's modern
+built-in<00:01:21.040><c> control</c><00:01:21.360><c> flow</c><00:01:21.680><c> syntax.</c><00:01:22.880><c> It's</c><00:01:23.200><c> a</c>
+
+00:01:23.350 --> 00:01:23.360 align:start position:0%
+built-in control flow syntax. It's a
+ 
+
+00:01:23.360 --> 00:01:26.149 align:start position:0%
+built-in control flow syntax. It's a
+little<00:01:23.520><c> cleaner.</c><00:01:24.320><c> No</c><00:01:24.479><c> more</c><00:01:24.640><c> asterisk,</c><00:01:25.920><c> no</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+little cleaner. No more asterisk, no
+ 
+
+00:01:26.159 --> 00:01:28.950 align:start position:0%
+little cleaner. No more asterisk, no
+structural<00:01:26.560><c> directive</c><00:01:27.040><c> needed.</c><00:01:28.400><c> This</c><00:01:28.640><c> runs</c>
+
+00:01:28.950 --> 00:01:28.960 align:start position:0%
+structural directive needed. This runs
+ 
+
+00:01:28.960 --> 00:01:32.069 align:start position:0%
+structural directive needed. This runs
+right<00:01:29.200><c> inside</c><00:01:29.600><c> Angular's</c><00:01:30.080><c> new</c><00:01:30.240><c> block</c><00:01:30.560><c> syntax.</c>
+
+00:01:32.069 --> 00:01:32.079 align:start position:0%
+right inside Angular's new block syntax.
+ 
+
+00:01:32.079 --> 00:01:35.670 align:start position:0%
+right inside Angular's new block syntax.
+And<00:01:32.479><c> instead</c><00:01:33.119><c> of</c><00:01:33.600><c> track</c><00:01:34.000><c> by,</c><00:01:34.799><c> we</c><00:01:35.040><c> now</c><00:01:35.360><c> use</c>
+
+00:01:35.670 --> 00:01:35.680 align:start position:0%
+And instead of track by, we now use
+ 
+
+00:01:35.680 --> 00:01:38.310 align:start position:0%
+And instead of track by, we now use
+track.<00:01:36.479><c> And</c><00:01:36.880><c> in</c><00:01:37.200><c> this</c><00:01:37.439><c> case,</c><00:01:37.680><c> the</c><00:01:38.000><c> player</c>
+
+00:01:38.310 --> 00:01:38.320 align:start position:0%
+track. And in this case, the player
+ 
+
+00:01:38.320 --> 00:01:42.630 align:start position:0%
+track. And in this case, the player
+name.<00:01:39.360><c> Same</c><00:01:39.680><c> idea,</c><00:01:40.799><c> just</c><00:01:41.040><c> nicer</c><00:01:41.360><c> to</c><00:01:41.600><c> read.</c>
+
+00:01:42.630 --> 00:01:42.640 align:start position:0%
+name. Same idea, just nicer to read.
+ 
+
+00:01:42.640 --> 00:01:44.710 align:start position:0%
+name. Same idea, just nicer to read.
+Because<00:01:42.960><c> of</c><00:01:43.119><c> that</c><00:01:43.360><c> change,</c><00:01:43.920><c> we</c><00:01:44.159><c> no</c><00:01:44.400><c> longer</c>
+
+00:01:44.710 --> 00:01:44.720 align:start position:0%
+Because of that change, we no longer
+ 
+
+00:01:44.720 --> 00:01:46.550 align:start position:0%
+Because of that change, we no longer
+need<00:01:44.880><c> the</c><00:01:45.040><c> track</c><00:01:45.439><c> by</c><00:01:45.600><c> method</c><00:01:46.000><c> over</c><00:01:46.240><c> in</c><00:01:46.399><c> the</c>
+
+00:01:46.550 --> 00:01:46.560 align:start position:0%
+need the track by method over in the
+ 
+
+00:01:46.560 --> 00:01:48.789 align:start position:0%
+need the track by method over in the
+component<00:01:47.040><c> type</c><00:01:47.360><c> script.</c><00:01:48.240><c> We</c><00:01:48.479><c> can</c><00:01:48.640><c> just</c>
+
+00:01:48.789 --> 00:01:48.799 align:start position:0%
+component type script. We can just
+ 
+
+00:01:48.799 --> 00:01:51.030 align:start position:0%
+component type script. We can just
+delete<00:01:49.200><c> it.</c><00:01:49.600><c> The</c><00:01:49.840><c> for</c><00:01:50.159><c> loop</c><00:01:50.479><c> takes</c><00:01:50.720><c> care</c><00:01:50.880><c> of</c>
+
+00:01:51.030 --> 00:01:51.040 align:start position:0%
+delete it. The for loop takes care of
+ 
+
+00:01:51.040 --> 00:01:53.510 align:start position:0%
+delete it. The for loop takes care of
+tracking<00:01:51.439><c> for</c><00:01:51.680><c> us.</c>
+
+00:01:53.510 --> 00:01:53.520 align:start position:0%
+tracking for us.
+ 
+
+00:01:53.520 --> 00:01:55.510 align:start position:0%
+tracking for us.
+Let's<00:01:53.840><c> switch</c><00:01:54.079><c> back</c><00:01:54.320><c> to</c><00:01:54.560><c> the</c><00:01:54.720><c> template.</c><00:01:55.119><c> Now,</c>
+
+00:01:55.510 --> 00:01:55.520 align:start position:0%
+Let's switch back to the template. Now,
+ 
+
+00:01:55.520 --> 00:01:56.950 align:start position:0%
+Let's switch back to the template. Now,
+there<00:01:55.759><c> were</c><00:01:55.920><c> a</c><00:01:56.079><c> couple</c><00:01:56.240><c> more</c><00:01:56.479><c> things</c><00:01:56.560><c> that</c><00:01:56.799><c> we</c>
+
+00:01:56.950 --> 00:01:56.960 align:start position:0%
+there were a couple more things that we
+ 
+
+00:01:56.960 --> 00:01:59.670 align:start position:0%
+there were a couple more things that we
+can<00:01:57.119><c> improve.</c><00:01:58.320><c> We've</c><00:01:58.640><c> got</c><00:01:58.799><c> two</c><00:01:59.040><c> buttons</c><00:01:59.439><c> here</c>
+
+00:01:59.670 --> 00:01:59.680 align:start position:0%
+can improve. We've got two buttons here
+ 
+
+00:01:59.680 --> 00:02:03.190 align:start position:0%
+can improve. We've got two buttons here
+that<00:02:00.079><c> use</c><00:02:00.479><c> ng</c><00:02:00.960><c> if,</c><00:02:01.920><c> one</c><00:02:02.240><c> for</c><00:02:02.640><c> removing</c><00:02:03.040><c> a</c>
+
+00:02:03.190 --> 00:02:03.200 align:start position:0%
+that use ng if, one for removing a
+ 
+
+00:02:03.200 --> 00:02:06.069 align:start position:0%
+that use ng if, one for removing a
+player<00:02:03.520><c> and</c><00:02:03.840><c> one</c><00:02:04.079><c> for</c><00:02:04.399><c> adding.</c>
+
+00:02:06.069 --> 00:02:06.079 align:start position:0%
+player and one for adding.
+ 
+
+00:02:06.079 --> 00:02:09.270 align:start position:0%
+player and one for adding.
+We<00:02:06.320><c> can</c><00:02:06.479><c> modernize</c><00:02:07.040><c> these</c><00:02:07.439><c> too</c><00:02:08.239><c> using</c><00:02:08.879><c> if</c>
+
+00:02:09.270 --> 00:02:09.280 align:start position:0%
+We can modernize these too using if
+ 
+
+00:02:09.280 --> 00:02:11.830 align:start position:0%
+We can modernize these too using if
+instead<00:02:09.679><c> of</c><00:02:09.759><c> the</c><00:02:10.000><c> structural</c><00:02:10.479><c> directive</c>
+
+00:02:11.830 --> 00:02:11.840 align:start position:0%
+instead of the structural directive
+ 
+
+00:02:11.840 --> 00:02:14.710 align:start position:0%
+instead of the structural directive
+again<00:02:12.640><c> no</c><00:02:12.879><c> more</c><00:02:13.040><c> asterisk,</c><00:02:14.000><c> no</c><00:02:14.319><c> structural</c>
+
+00:02:14.710 --> 00:02:14.720 align:start position:0%
+again no more asterisk, no structural
+ 
+
+00:02:14.720 --> 00:02:18.070 align:start position:0%
+again no more asterisk, no structural
+directive.<00:02:16.160><c> This</c><00:02:16.560><c> is</c><00:02:16.720><c> the</c><00:02:16.959><c> new</c><00:02:17.280><c> syntax</c>
+
+00:02:18.070 --> 00:02:18.080 align:start position:0%
+directive. This is the new syntax
+ 
+
+00:02:18.080 --> 00:02:20.869 align:start position:0%
+directive. This is the new syntax
+Angular<00:02:18.720><c> recommends</c><00:02:19.280><c> moving</c><00:02:19.599><c> forward.</c><00:02:20.480><c> And</c>
+
+00:02:20.869 --> 00:02:20.879 align:start position:0%
+Angular recommends moving forward. And
+ 
+
+00:02:20.879 --> 00:02:22.949 align:start position:0%
+Angular recommends moving forward. And
+once<00:02:21.200><c> you</c><00:02:21.360><c> start</c><00:02:21.599><c> using</c><00:02:21.840><c> it,</c><00:02:22.400><c> you</c><00:02:22.640><c> won't</c><00:02:22.800><c> want</c>
+
+00:02:22.949 --> 00:02:22.959 align:start position:0%
+once you start using it, you won't want
+ 
+
+00:02:22.959 --> 00:02:26.390 align:start position:0%
+once you start using it, you won't want
+to<00:02:23.120><c> go</c><00:02:23.280><c> back.</c><00:02:24.720><c> Okay,</c><00:02:25.040><c> this</c><00:02:25.280><c> is</c><00:02:25.440><c> cool,</c><00:02:25.760><c> but</c><00:02:26.160><c> what</c>
+
+00:02:26.390 --> 00:02:26.400 align:start position:0%
+to go back. Okay, this is cool, but what
+ 
+
+00:02:26.400 --> 00:02:27.910 align:start position:0%
+to go back. Okay, this is cool, but what
+does<00:02:26.560><c> it</c><00:02:26.720><c> have</c><00:02:26.800><c> to</c><00:02:26.959><c> do</c><00:02:27.120><c> with</c><00:02:27.280><c> hostbinding</c>
+
+00:02:27.910 --> 00:02:27.920 align:start position:0%
+does it have to do with hostbinding
+ 
+
+00:02:27.920 --> 00:02:31.270 align:start position:0%
+does it have to do with hostbinding
+animations?<00:02:28.959><c> Nothing,</c><00:02:29.440><c> right?</c><00:02:30.800><c> There</c><00:02:30.959><c> aren't</c>
+
+00:02:31.270 --> 00:02:31.280 align:start position:0%
+animations? Nothing, right? There aren't
+ 
+
+00:02:31.280 --> 00:02:33.670 align:start position:0%
+animations? Nothing, right? There aren't
+even<00:02:31.440><c> any</c><00:02:31.760><c> animations</c><00:02:32.239><c> in</c><00:02:32.480><c> this</c><00:02:32.640><c> template.</c>
+
+00:02:33.670 --> 00:02:33.680 align:start position:0%
+even any animations in this template.
+ 
+
+00:02:33.680 --> 00:02:35.589 align:start position:0%
+even any animations in this template.
+Well,<00:02:34.239><c> this</c><00:02:34.480><c> is</c><00:02:34.720><c> because</c><00:02:35.040><c> we're</c><00:02:35.360><c> using</c>
+
+00:02:35.589 --> 00:02:35.599 align:start position:0%
+Well, this is because we're using
+ 
+
+00:02:35.599 --> 00:02:37.670 align:start position:0%
+Well, this is because we're using
+hostbinding<00:02:36.400><c> in</c><00:02:36.640><c> the</c><00:02:36.800><c> player</c><00:02:37.120><c> component</c><00:02:37.440><c> for</c>
+
+00:02:37.670 --> 00:02:37.680 align:start position:0%
+hostbinding in the player component for
+ 
+
+00:02:37.680 --> 00:02:41.190 align:start position:0%
+hostbinding in the player component for
+this<00:02:37.840><c> animation.</c><00:02:38.720><c> So,</c><00:02:39.120><c> let's</c><00:02:39.440><c> take</c><00:02:39.519><c> a</c><00:02:39.680><c> look.</c>
+
+00:02:41.190 --> 00:02:41.200 align:start position:0%
+this animation. So, let's take a look.
+ 
+
+00:02:41.200 --> 00:02:44.309 align:start position:0%
+this animation. So, let's take a look.
+This<00:02:41.360><c> is</c><00:02:41.519><c> where</c><00:02:41.680><c> the</c><00:02:41.920><c> animations</c><00:02:42.480><c> live.</c>
+
+00:02:44.309 --> 00:02:44.319 align:start position:0%
+This is where the animations live.
+ 
+
+00:02:44.319 --> 00:02:46.229 align:start position:0%
+This is where the animations live.
+If<00:02:44.480><c> you</c><00:02:44.640><c> look</c><00:02:44.879><c> here,</c><00:02:45.280><c> we've</c><00:02:45.599><c> got</c><00:02:45.760><c> a</c><00:02:46.000><c> host</c>
+
+00:02:46.229 --> 00:02:46.239 align:start position:0%
+If you look here, we've got a host
+ 
+
+00:02:46.239 --> 00:02:49.270 align:start position:0%
+If you look here, we've got a host
+binding<00:02:46.560><c> to</c><00:02:46.720><c> run</c><00:02:46.879><c> the</c><00:02:47.040><c> animation</c><00:02:48.400><c> and</c><00:02:48.640><c> then</c>
+
+00:02:49.270 --> 00:02:49.280 align:start position:0%
+binding to run the animation and then
+ 
+
+00:02:49.280 --> 00:02:52.150 align:start position:0%
+binding to run the animation and then
+two<00:02:49.519><c> host</c><00:02:49.840><c> listeners,</c><00:02:50.959><c> one</c><00:02:51.280><c> for</c><00:02:51.680><c> when</c><00:02:51.920><c> the</c>
+
+00:02:52.150 --> 00:02:52.160 align:start position:0%
+two host listeners, one for when the
+ 
+
+00:02:52.160 --> 00:02:55.430 align:start position:0%
+two host listeners, one for when the
+animation<00:02:52.720><c> starts</c><00:02:53.840><c> and</c><00:02:54.480><c> one</c><00:02:54.720><c> for</c><00:02:54.959><c> when</c><00:02:55.200><c> it's</c>
+
+00:02:55.430 --> 00:02:55.440 align:start position:0%
+animation starts and one for when it's
+ 
+
+00:02:55.440 --> 00:02:58.150 align:start position:0%
+animation starts and one for when it's
+done.<00:02:56.640><c> But</c><00:02:56.879><c> here's</c><00:02:57.120><c> the</c><00:02:57.280><c> thing.</c><00:02:57.920><c> These</c>
+
+00:02:58.150 --> 00:02:58.160 align:start position:0%
+done. But here's the thing. These
+ 
+
+00:02:58.160 --> 00:03:00.070 align:start position:0%
+done. But here's the thing. These
+decorators<00:02:58.720><c> are</c><00:02:58.959><c> still</c><00:02:59.200><c> supported,</c><00:02:59.760><c> but</c>
+
+00:03:00.070 --> 00:03:00.080 align:start position:0%
+decorators are still supported, but
+ 
+
+00:03:00.080 --> 00:03:01.750 align:start position:0%
+decorators are still supported, but
+they're<00:03:00.319><c> not</c><00:03:00.480><c> the</c><00:03:00.720><c> recommended</c><00:03:01.120><c> way</c><00:03:01.280><c> to</c><00:03:01.440><c> bind</c>
+
+00:03:01.750 --> 00:03:01.760 align:start position:0%
+they're not the recommended way to bind
+ 
+
+00:03:01.760 --> 00:03:04.149 align:start position:0%
+they're not the recommended way to bind
+things<00:03:02.000><c> on</c><00:03:02.239><c> the</c><00:03:02.400><c> component</c><00:03:02.720><c> host</c><00:03:03.040><c> anymore.</c>
+
+00:03:04.149 --> 00:03:04.159 align:start position:0%
+things on the component host anymore.
+ 
+
+00:03:04.159 --> 00:03:06.070 align:start position:0%
+things on the component host anymore.
+Now,<00:03:04.560><c> we</c><00:03:04.720><c> want</c><00:03:04.879><c> to</c><00:03:05.040><c> do</c><00:03:05.120><c> this</c><00:03:05.280><c> with</c><00:03:05.519><c> the</c><00:03:05.680><c> host</c>
+
+00:03:06.070 --> 00:03:06.080 align:start position:0%
+Now, we want to do this with the host
+ 
+
+00:03:06.080 --> 00:03:08.550 align:start position:0%
+Now, we want to do this with the host
+property<00:03:06.480><c> of</c><00:03:06.720><c> the</c><00:03:06.959><c> component.</c><00:03:08.000><c> We'll</c><00:03:08.239><c> switch</c>
+
+00:03:08.550 --> 00:03:08.560 align:start position:0%
+property of the component. We'll switch
+ 
+
+00:03:08.560 --> 00:03:10.790 align:start position:0%
+property of the component. We'll switch
+this<00:03:08.800><c> over</c><00:03:09.040><c> in</c><00:03:09.280><c> a</c><00:03:09.440><c> minute,</c><00:03:09.680><c> but</c><00:03:10.159><c> first,</c><00:03:10.480><c> let's</c>
+
+00:03:10.790 --> 00:03:10.800 align:start position:0%
+this over in a minute, but first, let's
+ 
+
+00:03:10.800 --> 00:03:13.509 align:start position:0%
+this over in a minute, but first, let's
+look<00:03:10.959><c> at</c><00:03:11.200><c> the</c><00:03:11.519><c> animation</c><00:03:12.000><c> itself.</c>
+
+00:03:13.509 --> 00:03:13.519 align:start position:0%
+look at the animation itself.
+ 
+
+00:03:13.519 --> 00:03:16.070 align:start position:0%
+look at the animation itself.
+Here,<00:03:14.000><c> we</c><00:03:14.239><c> can</c><00:03:14.480><c> see</c><00:03:14.640><c> that</c><00:03:14.959><c> we're</c><00:03:15.200><c> using</c><00:03:15.680><c> an</c>
+
+00:03:16.070 --> 00:03:16.080 align:start position:0%
+Here, we can see that we're using an
+ 
+
+00:03:16.080 --> 00:03:18.550 align:start position:0%
+Here, we can see that we're using an
+external<00:03:16.640><c> animation.</c><00:03:17.840><c> Let's</c><00:03:18.080><c> look</c><00:03:18.239><c> at</c><00:03:18.400><c> this</c>
+
+00:03:18.550 --> 00:03:18.560 align:start position:0%
+external animation. Let's look at this
+ 
+
+00:03:18.560 --> 00:03:20.550 align:start position:0%
+external animation. Let's look at this
+real<00:03:18.800><c> quick</c><00:03:19.040><c> to</c><00:03:19.280><c> better</c><00:03:19.599><c> understand</c><00:03:20.000><c> how</c><00:03:20.239><c> it</c>
+
+00:03:20.550 --> 00:03:20.560 align:start position:0%
+real quick to better understand how it
+ 
+
+00:03:20.560 --> 00:03:23.509 align:start position:0%
+real quick to better understand how it
+works.<00:03:21.680><c> It's</c><00:03:22.000><c> just</c><00:03:22.159><c> a</c><00:03:22.480><c> simple</c><00:03:22.959><c> enter</c><00:03:23.280><c> and</c>
+
+00:03:23.509 --> 00:03:23.519 align:start position:0%
+works. It's just a simple enter and
+ 
+
+00:03:23.519 --> 00:03:27.110 align:start position:0%
+works. It's just a simple enter and
+leave<00:03:23.760><c> animation.</c><00:03:25.200><c> The</c><00:03:25.519><c> enter</c><00:03:25.840><c> alias</c><00:03:26.720><c> allows</c>
+
+00:03:27.110 --> 00:03:27.120 align:start position:0%
+leave animation. The enter alias allows
+ 
+
+00:03:27.120 --> 00:03:29.350 align:start position:0%
+leave animation. The enter alias allows
+us<00:03:27.280><c> to</c><00:03:27.519><c> animate</c><00:03:28.000><c> an</c><00:03:28.319><c> element</c><00:03:28.720><c> when</c><00:03:28.959><c> it</c><00:03:29.200><c> is</c>
+
+00:03:29.350 --> 00:03:29.360 align:start position:0%
+us to animate an element when it is
+ 
+
+00:03:29.360 --> 00:03:31.750 align:start position:0%
+us to animate an element when it is
+added<00:03:29.599><c> to</c><00:03:29.680><c> the</c><00:03:29.840><c> DOM.</c><00:03:30.560><c> And</c><00:03:30.720><c> the</c><00:03:30.959><c> leave</c><00:03:31.280><c> alias</c>
+
+00:03:31.750 --> 00:03:31.760 align:start position:0%
+added to the DOM. And the leave alias
+ 
+
+00:03:31.760 --> 00:03:34.630 align:start position:0%
+added to the DOM. And the leave alias
+does<00:03:31.920><c> the</c><00:03:32.159><c> opposite.</c><00:03:32.799><c> It</c><00:03:33.120><c> animates</c><00:03:33.680><c> items</c><00:03:34.400><c> as</c>
+
+00:03:34.630 --> 00:03:34.640 align:start position:0%
+does the opposite. It animates items as
+ 
+
+00:03:34.640 --> 00:03:37.270 align:start position:0%
+does the opposite. It animates items as
+they<00:03:34.879><c> leave</c><00:03:35.120><c> the</c><00:03:35.280><c> DOM.</c><00:03:36.159><c> Okay,</c><00:03:36.640><c> now</c><00:03:36.799><c> that</c><00:03:37.040><c> we</c>
+
+00:03:37.270 --> 00:03:37.280 align:start position:0%
+they leave the DOM. Okay, now that we
+ 
+
+00:03:37.280 --> 00:03:39.670 align:start position:0%
+they leave the DOM. Okay, now that we
+know<00:03:37.519><c> how</c><00:03:37.760><c> this</c><00:03:38.080><c> works,</c><00:03:38.720><c> let's</c><00:03:39.120><c> switch</c><00:03:39.440><c> over</c>
+
+00:03:39.670 --> 00:03:39.680 align:start position:0%
+know how this works, let's switch over
+ 
+
+00:03:39.680 --> 00:03:43.509 align:start position:0%
+know how this works, let's switch over
+to<00:03:40.000><c> the</c><00:03:40.319><c> host</c><00:03:40.720><c> property.</c><00:03:42.000><c> First,</c><00:03:42.560><c> we</c><00:03:42.879><c> add</c><00:03:43.200><c> a</c>
+
+00:03:43.509 --> 00:03:43.519 align:start position:0%
+to the host property. First, we add a
+ 
+
+00:03:43.519 --> 00:03:45.910 align:start position:0%
+to the host property. First, we add a
+new<00:03:44.080><c> host</c><00:03:44.480><c> property</c><00:03:44.879><c> inside</c><00:03:45.280><c> the</c><00:03:45.440><c> component</c>
+
+00:03:45.910 --> 00:03:45.920 align:start position:0%
+new host property inside the component
+ 
+
+00:03:45.920 --> 00:03:50.229 align:start position:0%
+new host property inside the component
+decorator<00:03:46.879><c> like</c><00:03:47.120><c> this.</c>
+
+00:03:50.229 --> 00:03:50.239 align:start position:0%
+ 
+ 
+
+00:03:50.239 --> 00:03:51.910 align:start position:0%
+ 
+That's<00:03:50.480><c> it.</c>
+
+00:03:51.910 --> 00:03:51.920 align:start position:0%
+That's it.
+ 
+
+00:03:51.920 --> 00:03:54.149 align:start position:0%
+That's it.
+Now<00:03:52.159><c> the</c><00:03:52.400><c> animation</c><00:03:52.959><c> is</c><00:03:53.280><c> bound</c><00:03:53.680><c> to</c><00:03:53.920><c> the</c>
+
+00:03:54.149 --> 00:03:54.159 align:start position:0%
+Now the animation is bound to the
+ 
+
+00:03:54.159 --> 00:03:56.550 align:start position:0%
+Now the animation is bound to the
+component<00:03:54.560><c> host.</c>
+
+00:03:56.550 --> 00:03:56.560 align:start position:0%
+component host.
+ 
+
+00:03:56.560 --> 00:03:59.270 align:start position:0%
+component host.
+And<00:03:57.120><c> since</c><00:03:57.439><c> we're</c><00:03:57.680><c> doing</c><00:03:57.920><c> it</c><00:03:58.080><c> this</c><00:03:58.400><c> way</c><00:03:58.640><c> now,</c>
+
+00:03:59.270 --> 00:03:59.280 align:start position:0%
+And since we're doing it this way now,
+ 
+
+00:03:59.280 --> 00:04:03.509 align:start position:0%
+And since we're doing it this way now,
+we<00:03:59.519><c> don't</c><00:03:59.680><c> need</c><00:03:59.840><c> this</c><00:04:00.000><c> host</c><00:04:00.319><c> binding</c><00:04:00.640><c> anymore.</c>
+
+00:04:03.509 --> 00:04:03.519 align:start position:0%
+we don't need this host binding anymore.
+ 
+
+00:04:03.519 --> 00:04:05.589 align:start position:0%
+we don't need this host binding anymore.
+Now<00:04:03.920><c> we</c><00:04:04.159><c> can</c><00:04:04.239><c> move</c><00:04:04.480><c> the</c><00:04:04.720><c> start</c><00:04:04.959><c> event</c><00:04:05.280><c> to</c><00:04:05.439><c> the</c>
+
+00:04:05.589 --> 00:04:05.599 align:start position:0%
+Now we can move the start event to the
+ 
+
+00:04:05.599 --> 00:04:08.630 align:start position:0%
+Now we can move the start event to the
+host<00:04:05.840><c> property</c><00:04:06.239><c> too.</c><00:04:07.599><c> We</c><00:04:07.840><c> use</c><00:04:08.080><c> parenthesis</c>
+
+00:04:08.630 --> 00:04:08.640 align:start position:0%
+host property too. We use parenthesis
+ 
+
+00:04:08.640 --> 00:04:10.869 align:start position:0%
+host property too. We use parenthesis
+for<00:04:08.879><c> this</c><00:04:09.200><c> just</c><00:04:09.439><c> as</c><00:04:09.599><c> we</c><00:04:09.760><c> would</c><00:04:10.000><c> for</c><00:04:10.400><c> events</c><00:04:10.720><c> in</c>
+
+00:04:10.869 --> 00:04:10.879 align:start position:0%
+for this just as we would for events in
+ 
+
+00:04:10.879 --> 00:04:13.030 align:start position:0%
+for this just as we would for events in
+the<00:04:11.040><c> template.</c>
+
+00:04:13.030 --> 00:04:13.040 align:start position:0%
+the template.
+ 
+
+00:04:13.040 --> 00:04:15.509 align:start position:0%
+the template.
+Then<00:04:13.519><c> we</c><00:04:13.760><c> just</c><00:04:13.920><c> need</c><00:04:14.080><c> to</c><00:04:14.239><c> call</c><00:04:14.640><c> our</c><00:04:15.120><c> start</c>
+
+00:04:15.509 --> 00:04:15.519 align:start position:0%
+Then we just need to call our start
+ 
+
+00:04:15.519 --> 00:04:17.349 align:start position:0%
+Then we just need to call our start
+method.
+
+00:04:17.349 --> 00:04:17.359 align:start position:0%
+method.
+ 
+
+00:04:17.359 --> 00:04:19.110 align:start position:0%
+method.
+Now<00:04:17.600><c> we</c><00:04:17.759><c> can</c><00:04:17.840><c> remove</c><00:04:18.079><c> the</c><00:04:18.320><c> host</c><00:04:18.560><c> listener</c><00:04:18.959><c> for</c>
+
+00:04:19.110 --> 00:04:19.120 align:start position:0%
+Now we can remove the host listener for
+ 
+
+00:04:19.120 --> 00:04:21.270 align:start position:0%
+Now we can remove the host listener for
+this.
+
+00:04:21.270 --> 00:04:21.280 align:start position:0%
+this.
+ 
+
+00:04:21.280 --> 00:04:24.870 align:start position:0%
+this.
+And<00:04:21.600><c> now</c><00:04:22.000><c> we</c><00:04:22.240><c> can</c><00:04:22.400><c> do</c><00:04:22.560><c> the</c><00:04:22.800><c> same</c><00:04:23.440><c> for</c><00:04:23.919><c> the</c><00:04:24.479><c> done</c>
+
+00:04:24.870 --> 00:04:24.880 align:start position:0%
+And now we can do the same for the done
+ 
+
+00:04:24.880 --> 00:04:26.790 align:start position:0%
+And now we can do the same for the done
+event.
+
+00:04:26.790 --> 00:04:26.800 align:start position:0%
+event.
+ 
+
+00:04:26.800 --> 00:04:29.189 align:start position:0%
+event.
+We'll<00:04:27.040><c> move</c><00:04:27.199><c> it</c><00:04:27.280><c> to</c><00:04:27.440><c> the</c><00:04:27.600><c> host.</c><00:04:28.479><c> Call</c><00:04:28.639><c> the</c><00:04:28.800><c> done</c>
+
+00:04:29.189 --> 00:04:29.199 align:start position:0%
+We'll move it to the host. Call the done
+ 
+
+00:04:29.199 --> 00:04:35.590 align:start position:0%
+We'll move it to the host. Call the done
+method.<00:04:30.240><c> Then</c><00:04:31.199><c> remove</c><00:04:31.440><c> the</c><00:04:31.600><c> host</c><00:04:31.919><c> listener.</c>
+
+00:04:35.590 --> 00:04:35.600 align:start position:0%
+ 
+ 
+
+00:04:35.600 --> 00:04:37.990 align:start position:0%
+ 
+We<00:04:35.840><c> can</c><00:04:36.000><c> also</c><00:04:36.240><c> remove</c><00:04:36.479><c> the</c><00:04:36.800><c> import</c><00:04:37.520><c> since</c><00:04:37.759><c> it's</c>
+
+00:04:37.990 --> 00:04:38.000 align:start position:0%
+We can also remove the import since it's
+ 
+
+00:04:38.000 --> 00:04:40.070 align:start position:0%
+We can also remove the import since it's
+not<00:04:38.160><c> needed</c><00:04:38.479><c> anymore.</c>
+
+00:04:40.070 --> 00:04:40.080 align:start position:0%
+not needed anymore.
+ 
+
+00:04:40.080 --> 00:04:42.230 align:start position:0%
+not needed anymore.
+Now<00:04:40.479><c> before</c><00:04:40.720><c> we</c><00:04:40.960><c> finish,</c><00:04:41.680><c> there's</c><00:04:41.919><c> one</c><00:04:42.080><c> more</c>
+
+00:04:42.230 --> 00:04:42.240 align:start position:0%
+Now before we finish, there's one more
+ 
+
+00:04:42.240 --> 00:04:43.909 align:start position:0%
+Now before we finish, there's one more
+modern<00:04:42.639><c> pattern</c><00:04:42.960><c> you'll</c><00:04:43.360><c> definitely</c><00:04:43.680><c> want</c><00:04:43.840><c> to</c>
+
+00:04:43.909 --> 00:04:43.919 align:start position:0%
+modern pattern you'll definitely want to
+ 
+
+00:04:43.919 --> 00:04:47.350 align:start position:0%
+modern pattern you'll definitely want to
+use<00:04:44.160><c> here.</c><00:04:45.199><c> Signal</c><00:04:45.680><c> inputs.</c>
+
+00:04:47.350 --> 00:04:47.360 align:start position:0%
+use here. Signal inputs.
+ 
+
+00:04:47.360 --> 00:04:49.590 align:start position:0%
+use here. Signal inputs.
+Right<00:04:47.600><c> now,</c><00:04:47.919><c> this</c><00:04:48.160><c> uses</c><00:04:48.479><c> the</c><00:04:48.720><c> classic</c><00:04:49.120><c> input</c>
+
+00:04:49.590 --> 00:04:49.600 align:start position:0%
+Right now, this uses the classic input
+ 
+
+00:04:49.600 --> 00:04:53.030 align:start position:0%
+Right now, this uses the classic input
+decorator,<00:04:50.880><c> but</c><00:04:51.280><c> modern</c><00:04:51.680><c> Angular</c><00:04:52.080><c> gives</c><00:04:52.320><c> us</c><00:04:52.639><c> a</c>
+
+00:04:53.030 --> 00:04:53.040 align:start position:0%
+decorator, but modern Angular gives us a
+ 
+
+00:04:53.040 --> 00:04:56.390 align:start position:0%
+decorator, but modern Angular gives us a
+newer<00:04:53.440><c> way</c><00:04:54.479><c> using</c><00:04:54.960><c> signal</c><00:04:55.360><c> inputs,</c><00:04:56.160><c> which</c>
+
+00:04:56.390 --> 00:04:56.400 align:start position:0%
+newer way using signal inputs, which
+ 
+
+00:04:56.400 --> 00:04:59.270 align:start position:0%
+newer way using signal inputs, which
+makes<00:04:56.560><c> the</c><00:04:56.800><c> component</c><00:04:57.120><c> more</c><00:04:57.360><c> reactive.</c><00:04:58.800><c> So,</c>
+
+00:04:59.270 --> 00:04:59.280 align:start position:0%
+makes the component more reactive. So,
+ 
+
+00:04:59.280 --> 00:05:01.189 align:start position:0%
+makes the component more reactive. So,
+we<00:04:59.520><c> just</c><00:04:59.680><c> need</c><00:04:59.840><c> to</c><00:05:00.000><c> switch</c><00:05:00.240><c> this</c><00:05:00.560><c> over</c><00:05:00.800><c> to</c><00:05:00.960><c> the</c>
+
+00:05:01.189 --> 00:05:01.199 align:start position:0%
+we just need to switch this over to the
+ 
+
+00:05:01.199 --> 00:05:07.270 align:start position:0%
+we just need to switch this over to the
+new<00:05:01.440><c> input</c><00:05:01.919><c> function.</c>
+
+00:05:07.270 --> 00:05:07.280 align:start position:0%
+ 
+ 
+
+00:05:07.280 --> 00:05:09.430 align:start position:0%
+ 
+Then,<00:05:07.680><c> we</c><00:05:07.919><c> can</c><00:05:08.080><c> remove</c><00:05:08.400><c> the</c><00:05:08.639><c> old</c><00:05:08.880><c> decorator</c>
+
+00:05:09.430 --> 00:05:09.440 align:start position:0%
+Then, we can remove the old decorator
+ 
+
+00:05:09.440 --> 00:05:11.270 align:start position:0%
+Then, we can remove the old decorator
+import.
+
+00:05:11.270 --> 00:05:11.280 align:start position:0%
+import.
+ 
+
+00:05:11.280 --> 00:05:14.550 align:start position:0%
+import.
+Now,<00:05:11.680><c> we're</c><00:05:11.919><c> not</c><00:05:12.160><c> done</c><00:05:12.400><c> yet.</c><00:05:13.280><c> Over</c><00:05:14.160><c> in</c><00:05:14.320><c> the</c>
+
+00:05:14.550 --> 00:05:14.560 align:start position:0%
+Now, we're not done yet. Over in the
+ 
+
+00:05:14.560 --> 00:05:16.870 align:start position:0%
+Now, we're not done yet. Over in the
+template,<00:05:15.199><c> we</c><00:05:15.440><c> need</c><00:05:15.600><c> to</c><00:05:15.759><c> update</c><00:05:16.160><c> it</c><00:05:16.400><c> to</c><00:05:16.639><c> use</c>
+
+00:05:16.870 --> 00:05:16.880 align:start position:0%
+template, we need to update it to use
+ 
+
+00:05:16.880 --> 00:05:18.950 align:start position:0%
+template, we need to update it to use
+this<00:05:17.120><c> signal</c><00:05:17.440><c> input.</c>
+
+00:05:18.950 --> 00:05:18.960 align:start position:0%
+this signal input.
+ 
+
+00:05:18.960 --> 00:05:21.189 align:start position:0%
+this signal input.
+What<00:05:19.120><c> I'm</c><00:05:19.360><c> actually</c><00:05:19.680><c> going</c><00:05:19.840><c> to</c><00:05:20.000><c> do</c><00:05:20.400><c> is</c><00:05:20.960><c> create</c>
+
+00:05:21.189 --> 00:05:21.199 align:start position:0%
+What I'm actually going to do is create
+ 
+
+00:05:21.199 --> 00:05:23.749 align:start position:0%
+What I'm actually going to do is create
+a<00:05:21.520><c> template</c><00:05:22.000><c> variable</c><00:05:22.479><c> here</c><00:05:22.800><c> with</c><00:05:23.120><c> the</c><00:05:23.360><c> let</c>
+
+00:05:23.749 --> 00:05:23.759 align:start position:0%
+a template variable here with the let
+ 
+
+00:05:23.759 --> 00:05:27.270 align:start position:0%
+a template variable here with the let
+syntax<00:05:25.120><c> and</c><00:05:25.520><c> I'm</c><00:05:25.840><c> going</c><00:05:26.000><c> to</c><00:05:26.160><c> name</c><00:05:26.400><c> it</c><00:05:26.800><c> player</c>
+
+00:05:27.270 --> 00:05:27.280 align:start position:0%
+syntax and I'm going to name it player
+ 
+
+00:05:27.280 --> 00:05:29.270 align:start position:0%
+syntax and I'm going to name it player
+var.
+
+00:05:29.270 --> 00:05:29.280 align:start position:0%
+var.
+ 
+
+00:05:29.280 --> 00:05:33.270 align:start position:0%
+var.
+Then<00:05:29.680><c> I'll</c><00:05:30.080><c> set</c><00:05:30.320><c> this</c><00:05:30.560><c> to</c><00:05:30.720><c> the</c><00:05:30.880><c> signal</c><00:05:31.199><c> input.</c>
+
+00:05:33.270 --> 00:05:33.280 align:start position:0%
+Then I'll set this to the signal input.
+ 
+
+00:05:33.280 --> 00:05:36.230 align:start position:0%
+Then I'll set this to the signal input.
+Then<00:05:33.600><c> I</c><00:05:33.919><c> just</c><00:05:34.160><c> need</c><00:05:34.400><c> to</c><00:05:34.560><c> update</c><00:05:35.199><c> all</c><00:05:35.600><c> instances</c>
+
+00:05:36.230 --> 00:05:36.240 align:start position:0%
+Then I just need to update all instances
+ 
+
+00:05:36.240 --> 00:05:39.270 align:start position:0%
+Then I just need to update all instances
+of<00:05:36.479><c> the</c><00:05:36.720><c> old</c><00:05:36.960><c> player</c><00:05:37.360><c> property.</c><00:05:38.639><c> Using</c><00:05:38.960><c> a</c>
+
+00:05:39.270 --> 00:05:39.280 align:start position:0%
+of the old player property. Using a
+ 
+
+00:05:39.280 --> 00:05:42.070 align:start position:0%
+of the old player property. Using a
+template<00:05:39.759><c> variable</c><00:05:40.320><c> like</c><00:05:40.639><c> this</c><00:05:41.199><c> means</c><00:05:41.680><c> we</c><00:05:41.919><c> can</c>
+
+00:05:42.070 --> 00:05:42.080 align:start position:0%
+template variable like this means we can
+ 
+
+00:05:42.080 --> 00:05:44.310 align:start position:0%
+template variable like this means we can
+reference<00:05:42.560><c> player</c><00:05:42.960><c> var</c><00:05:43.280><c> directly</c><00:05:43.919><c> without</c>
+
+00:05:44.310 --> 00:05:44.320 align:start position:0%
+reference player var directly without
+ 
+
+00:05:44.320 --> 00:05:46.550 align:start position:0%
+reference player var directly without
+having<00:05:44.560><c> to</c><00:05:44.720><c> write</c><00:05:45.199><c> player</c><00:05:45.600><c> with</c><00:05:45.919><c> parenthesis</c>
+
+00:05:46.550 --> 00:05:46.560 align:start position:0%
+having to write player with parenthesis
+ 
+
+00:05:46.560 --> 00:05:49.830 align:start position:0%
+having to write player with parenthesis
+every<00:05:46.880><c> time.</c><00:05:48.240><c> But</c><00:05:48.400><c> since</c><00:05:48.639><c> it's</c><00:05:48.960><c> now</c><00:05:49.199><c> a</c><00:05:49.520><c> local</c>
+
+00:05:49.830 --> 00:05:49.840 align:start position:0%
+every time. But since it's now a local
+ 
+
+00:05:49.840 --> 00:05:52.550 align:start position:0%
+every time. But since it's now a local
+variable,<00:05:50.560><c> I</c><00:05:50.800><c> do</c><00:05:50.960><c> have</c><00:05:51.120><c> to</c><00:05:51.280><c> change</c><00:05:51.440><c> the</c><00:05:51.680><c> name.</c>
+
+00:05:52.550 --> 00:05:52.560 align:start position:0%
+variable, I do have to change the name.
+ 
+
+00:05:52.560 --> 00:05:54.950 align:start position:0%
+variable, I do have to change the name.
+So<00:05:53.039><c> pick</c><00:05:53.280><c> your</c><00:05:53.440><c> poison.</c>
+
+00:05:54.950 --> 00:05:54.960 align:start position:0%
+So pick your poison.
+ 
+
+00:05:54.960 --> 00:05:56.790 align:start position:0%
+So pick your poison.
+All<00:05:55.039><c> right,</c><00:05:55.360><c> I</c><00:05:55.680><c> think</c><00:05:55.759><c> we've</c><00:05:56.000><c> got</c><00:05:56.240><c> everything.</c>
+
+00:05:56.790 --> 00:05:56.800 align:start position:0%
+All right, I think we've got everything.
+ 
+
+00:05:56.800 --> 00:05:58.629 align:start position:0%
+All right, I think we've got everything.
+Let's<00:05:57.039><c> save</c><00:05:57.280><c> it</c><00:05:57.520><c> and</c><00:05:57.919><c> take</c><00:05:58.080><c> a</c><00:05:58.240><c> look</c><00:05:58.320><c> in</c><00:05:58.479><c> the</c>
+
+00:05:58.629 --> 00:05:58.639 align:start position:0%
+Let's save it and take a look in the
+ 
+
+00:05:58.639 --> 00:06:01.029 align:start position:0%
+Let's save it and take a look in the
+browser.
+
+00:06:01.029 --> 00:06:01.039 align:start position:0%
+browser.
+ 
+
+00:06:01.039 --> 00:06:04.950 align:start position:0%
+browser.
+There<00:06:01.280><c> we</c><00:06:01.440><c> go.</c><00:06:02.400><c> Add</c><00:06:02.639><c> a</c><00:06:02.800><c> player.</c><00:06:04.240><c> Nice</c><00:06:04.560><c> entrance</c>
+
+00:06:04.950 --> 00:06:04.960 align:start position:0%
+There we go. Add a player. Nice entrance
+ 
+
+00:06:04.960 --> 00:06:06.710 align:start position:0%
+There we go. Add a player. Nice entrance
+animation.
+
+00:06:06.710 --> 00:06:06.720 align:start position:0%
+animation.
+ 
+
+00:06:06.720 --> 00:06:08.710 align:start position:0%
+animation.
+Remove<00:06:06.960><c> a</c><00:06:07.199><c> player.</c>
+
+00:06:08.710 --> 00:06:08.720 align:start position:0%
+Remove a player.
+ 
+
+00:06:08.720 --> 00:06:11.350 align:start position:0%
+Remove a player.
+smooth<00:06:09.120><c> exit</c><00:06:09.520><c> animation</c>
+
+00:06:11.350 --> 00:06:11.360 align:start position:0%
+smooth exit animation
+ 
+
+00:06:11.360 --> 00:06:13.749 align:start position:0%
+smooth exit animation
+and<00:06:11.759><c> everything</c><00:06:12.240><c> works</c><00:06:12.720><c> exactly</c><00:06:13.280><c> as</c><00:06:13.600><c> it</c>
+
+00:06:13.749 --> 00:06:13.759 align:start position:0%
+and everything works exactly as it
+ 
+
+00:06:13.759 --> 00:06:17.189 align:start position:0%
+and everything works exactly as it
+should.<00:06:14.639><c> But</c><00:06:14.800><c> now</c><00:06:15.280><c> the</c><00:06:15.600><c> code</c><00:06:15.840><c> is</c><00:06:16.000><c> more</c><00:06:16.240><c> modern</c>
+
+00:06:17.189 --> 00:06:17.199 align:start position:0%
+should. But now the code is more modern
+ 
+
+00:06:17.199 --> 00:06:19.830 align:start position:0%
+should. But now the code is more modern
+and<00:06:17.759><c> ready</c><00:06:18.000><c> for</c><00:06:18.240><c> anything</c><00:06:18.880><c> Angular</c><00:06:19.360><c> throws</c><00:06:19.680><c> at</c>
+
+00:06:19.830 --> 00:06:19.840 align:start position:0%
+and ready for anything Angular throws at
+ 
+
+00:06:19.840 --> 00:06:22.230 align:start position:0%
+and ready for anything Angular throws at
+us<00:06:20.080><c> in</c><00:06:20.319><c> future</c><00:06:20.639><c> updates.</c>
+
+00:06:22.230 --> 00:06:22.240 align:start position:0%
+us in future updates.
+ 
+
+00:06:22.240 --> 00:06:25.350 align:start position:0%
+us in future updates.
+So<00:06:22.720><c> that's</c><00:06:23.039><c> it.</c><00:06:23.600><c> A</c><00:06:23.840><c> quick</c><00:06:24.160><c> refactor</c><00:06:24.960><c> of</c><00:06:25.199><c> an</c>
+
+00:06:25.350 --> 00:06:25.360 align:start position:0%
+So that's it. A quick refactor of an
+ 
+
+00:06:25.360 --> 00:06:28.150 align:start position:0%
+So that's it. A quick refactor of an
+older<00:06:25.680><c> app</c><00:06:26.080><c> using</c><00:06:26.560><c> Angular</c><00:06:27.039><c> modern</c><00:06:27.360><c> syntax,</c>
+
+00:06:28.150 --> 00:06:28.160 align:start position:0%
+older app using Angular modern syntax,
+ 
+
+00:06:28.160 --> 00:06:31.189 align:start position:0%
+older app using Angular modern syntax,
+new<00:06:28.479><c> control</c><00:06:28.800><c> flow,</c><00:06:29.440><c> signal</c><00:06:29.840><c> inputs,</c><00:06:30.800><c> and</c>
+
+00:06:31.189 --> 00:06:31.199 align:start position:0%
+new control flow, signal inputs, and
+ 
+
+00:06:31.199 --> 00:06:33.909 align:start position:0%
+new control flow, signal inputs, and
+cleaner<00:06:31.600><c> host</c><00:06:31.919><c> bindings.</c><00:06:33.360><c> If</c><00:06:33.600><c> you're</c>
+
+00:06:33.909 --> 00:06:33.919 align:start position:0%
+cleaner host bindings. If you're
+ 
+
+00:06:33.919 --> 00:06:35.909 align:start position:0%
+cleaner host bindings. If you're
+building<00:06:34.240><c> apps</c><00:06:34.479><c> in</c><00:06:34.639><c> Angular</c><00:06:35.120><c> today,</c><00:06:35.600><c> these</c>
+
+00:06:35.909 --> 00:06:35.919 align:start position:0%
+building apps in Angular today, these
+ 
+
+00:06:35.919 --> 00:06:37.909 align:start position:0%
+building apps in Angular today, these
+patterns<00:06:36.319><c> will</c><00:06:36.479><c> help</c><00:06:36.639><c> you</c><00:06:36.880><c> write</c><00:06:37.199><c> clearer,</c>
+
+00:06:37.909 --> 00:06:37.919 align:start position:0%
+patterns will help you write clearer,
+ 
+
+00:06:37.919 --> 00:06:40.710 align:start position:0%
+patterns will help you write clearer,
+more<00:06:38.160><c> reactive</c><00:06:38.720><c> code,</c><00:06:39.759><c> and</c><00:06:40.240><c> they'll</c><00:06:40.560><c> keep</c>
+
+00:06:40.710 --> 00:06:40.720 align:start position:0%
+more reactive code, and they'll keep
+ 
+
+00:06:40.720 --> 00:06:44.150 align:start position:0%
+more reactive code, and they'll keep
+your<00:06:40.880><c> apps</c><00:06:41.280><c> easy</c><00:06:41.759><c> to</c><00:06:42.080><c> maintain</c><00:06:42.479><c> long</c><00:06:42.800><c> term.</c><00:06:43.840><c> If</c>
+
+00:06:44.150 --> 00:06:44.160 align:start position:0%
+your apps easy to maintain long term. If
+ 
+
+00:06:44.160 --> 00:06:46.309 align:start position:0%
+your apps easy to maintain long term. If
+you<00:06:44.319><c> enjoyed</c><00:06:44.720><c> this</c><00:06:45.039><c> video,</c><00:06:45.600><c> hit</c><00:06:45.840><c> that</c><00:06:46.080><c> like</c>
+
+00:06:46.309 --> 00:06:46.319 align:start position:0%
+you enjoyed this video, hit that like
+ 
+
+00:06:46.319 --> 00:06:48.390 align:start position:0%
+you enjoyed this video, hit that like
+button.<00:06:46.960><c> And</c><00:06:47.199><c> if</c><00:06:47.520><c> you</c><00:06:47.680><c> want</c><00:06:47.840><c> more</c><00:06:48.080><c> short</c>
+
+00:06:48.390 --> 00:06:48.400 align:start position:0%
+button. And if you want more short
+ 
+
+00:06:48.400 --> 00:06:50.710 align:start position:0%
+button. And if you want more short
+focused<00:06:48.800><c> Angular</c><00:06:49.280><c> tutorials</c><00:06:49.840><c> like</c><00:06:50.080><c> this</c><00:06:50.240><c> one,</c>
+
+00:06:50.710 --> 00:06:50.720 align:start position:0%
+focused Angular tutorials like this one,
+ 
+
+00:06:50.720 --> 00:06:53.029 align:start position:0%
+focused Angular tutorials like this one,
+go<00:06:50.880><c> ahead</c><00:06:51.280><c> and</c><00:06:51.680><c> subscribe.</c><00:06:52.400><c> I've</c><00:06:52.639><c> got</c><00:06:52.720><c> plenty</c>
+
+00:06:53.029 --> 00:06:53.039 align:start position:0%
+go ahead and subscribe. I've got plenty
+ 
+
+00:06:53.039 --> 00:06:56.230 align:start position:0%
+go ahead and subscribe. I've got plenty
+more<00:06:53.280><c> coming.</c><00:06:54.240><c> Until</c><00:06:54.639><c> next</c><00:06:54.880><c> time,</c><00:06:55.680><c> thanks</c><00:06:56.000><c> for</c>
+
+00:06:56.230 --> 00:06:56.240 align:start position:0%
+more coming. Until next time, thanks for
+ 
+
+00:06:56.240 --> 00:06:57.730 align:start position:0%
+more coming. Until next time, thanks for
+watching.
+
+00:06:57.730 --> 00:06:57.740 align:start position:0%
+watching.
+ 
+
+00:06:57.740 --> 00:07:02.300 align:start position:0%
+watching.
+[Music]
+
