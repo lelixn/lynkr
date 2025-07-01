@@ -1,6 +1,7 @@
 # 🔗 `Lynkr - Link Snagged` 
 
-![Screenshot 2025-06-30 222743](https://github.com/user-attachments/assets/fbda93ef-e652-47f5-b9db-e7d64bbec766)
+![Screenshot 2025-07-01 114205](https://github.com/user-attachments/assets/4c44ccf0-f720-4bef-a2c5-6cd1bf4f77ac)
+
 
 
 **Lynkr** is a sleek and Gen Z–friendly universal downloader built with **Flask** + **HTML/CSS/JS**, allowing users to download videos, reels, shorts, and posts from:
